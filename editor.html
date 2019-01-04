@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Editor Text</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="stylesheet/editor.css" type="text/css">
+<meta charset="utf-8">
+
+
+
+<head>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div id="menu-left">
+            <div id="logotipo">
+                <a><img src="img/icon-menu.png" alt="menu"></a>
+            </div>
+            <ul id="menu-items">
+                <li class="item-menu">
+                    <select>
+                        <option selected>Font Size</option>
+                        <option id="btn-fontSize1">1</option>
+                        <option id="btn-fontSize2">2</option>
+                        <option id="btn-fontSize3">3</option>
+                        <option id="btn-fontSize4">4</option>
+                        <option id="btn-fontSize5">5</option>
+                        <option id="btn-fontSize6">6</option>
+                        <option id="btn-fontSize7">7</option>
+                    </select>
+                </li>
+                <li class="item-menu">
+                    <select>
+                        <option selected>Title</option>
+                        <option id="btn-heading1">
+                            <h1>H1</h1>
+                        </option>
+                        <option id="btn-heading2">
+                            <h2>H2</h2>
+                        </option>
+                        <option id="btn-heading3">
+                            <h3>H3</h3>
+                        </option>
+                        <option id="btn-heading4">
+                            <h4>H4</h4>
+                        </option>
+                        <option id="btn-heading5">
+                            <h5>H5</h5>
+                        </option>
+                        <option id="btn-heading6">
+                            <H6>H6</H6>
+                        </option>
+                    </select>
+
+                </li>
+                <li class="item-menu">
+                    <input id="btn-foreColor" type="color" name="favcolor" value="#ff0000">
+
+                    <button id="btn-bold">B</button>
+                    <button id="btn-emphasis" s><em>I</em></button>
+                    <button id="btn-underline"><u>U</u></button>
+                    <button id="btn-strikethrough"><del>A</del></button>
+                </li>
+                <li class="item-menu">
+                    <button id="btn-justifyLeft"><img src="img/icon-justifyleft.png" alt="left"></button>
+                    <button id="btn-justifyCenter"><img src="img/icon-justifycenter.png" alt="center"></button>
+                    <button id="btn-justifyRight"><img src="img/icon-justifyright.png" alt="right"></button>
+                    <button id="btn-justifyFull"><img src="img/icon-justifyall.png" alt="justify"></button>
+
+                </li>
+
+                <li class="item-menu">
+                    <button id="btn-outdent">Tabular</button>
+                    <button id="btn-selectAll">Select All</button>
+                </li>
+                <li class="item-menu">
+                    <button id="btn-copy"><img src="img/icon-copy.png" alt="copiar"></button>
+                    <button id="btn-cut"><img src="img/icon-cut.png" alt="cortar"></button>
+                    <button id="btn-paste"><img src="img/icon-paste.png" alt="pegar"></button>
+                </li>
+
+
+                <li class="item-menu"></li>
+            </ul>
+
+            <div class="submenu">
+                <p>Otros<small class="count-menu">0</small></p>
+                <ul id="submenu-otros">
+
+                </ul>
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <div id="container">
+        <aside>
+
+            <article>
+                <ul>
+                    <li><button>s</button></li>
+                </ul>
+            </article>
+
+
+            <article>
+                <h3 id="toggle-archivos" class="collapseTitle  collapse" href="#">Archivos </h3>
+                <div class="contentCollapse">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit.
+                </div>
+            </article>
+            <article>
+                <h3 id="toogle-paginas" class="collapseTitle  collapse" href="#">Paginas </h3>
+                <div class="contentCollapse">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit.
+                </div>
+            </article>
+            <article>
+                <h3 id="toogle-titulos" class="collapseTitle  collapse" href="#">Titulos </h3>
+                <div class="contentCollapse">
+                    <ul>
+                        <li>
+                            <h4 class="collapse">H1 </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">H2 </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">H3 </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse"> H4 </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">H5 </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">H6 </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </article>
+            <article>
+                <h3 id="toogle-palabras" class="collapseTitle collapse" href="#">Palabras </h3>
+                <div class="contentCollapse">
+                    <ul>
+                        <li>
+                            <h4 class="collapse">Listas </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">Negrita </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">Cursiva </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse"> Quaota </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">Etiquetas </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="collapse">Subrayado </h4>
+                            <div class="block-links-titles">
+                                <a href="">Lorem ipsum <span class="page-title">Pag <span class="numpage">3</span></span></a>
+                                <a href="">Lorem ipsum Patrium <span class="page-title">Pag <span class="numpage">8</span></span></a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </article>
+
+        </aside>
+
+        <div id="block-edit-text">
+
+           
+
+
+            <img id="ringoImage" src="img/icon-update.png" alt="update">
+            <p id="canvasHolder">
+
+                <canvas width="100" height="100"></canvas>
+            </p>
+
+            <section id="editor-texto" contenteditable="true">
+
+                <p>hola caracola</p>
+
+            </section>
+        </div>
+    </div>
+
+</body>
+
+<script src="js/editor.js"></script>
+
+</html>
